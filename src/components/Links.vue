@@ -145,8 +145,8 @@ onMounted(() => {
 
       &:hover {
         transform: scale(1.02);
-        background: rgb(0 0 0 / 40%);
-        transition: 0.3s;
+        background: #ff6709ac;
+        transition: 0.8s;
       }
 
       &:active {

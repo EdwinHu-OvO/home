@@ -45,9 +45,6 @@ const changeBg = (type) => {
   } else if (type == 2) {
     bgUrl.value = "https://api.aixiaowai.cn/gqapi/gqapi.php";
   } else if (type == 3) {
-    bgUrl.value = "https://api.aixiaowai.cn/api/api.php";
-  }
-    else if (type == 4) {
     bgUrl.value = "https://api.hikarinagi.org/random";
   }
 };
@@ -124,9 +121,9 @@ onBeforeUnmount(() => {
     backface-visibility: hidden;
     filter: blur(20px) brightness(0.3);
     transition:
-      filter 0.3s,
-      transform 0.3s;
-    animation: fade-blur-in 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94) forwards;
+      filter 0.5s,
+      transform 0.5s;
+    animation: fade-blur-in 1.2s cubic-bezier(0.25, 0.46, 0.45, 0.94) forwards;
     animation-delay: 0.45s;
   }
   .gray {

@@ -12,12 +12,12 @@
           <a :href="siteUrl">{{ siteAnthor }}</a>
         </span>
         <!-- 以下信息请不要修改哦 -->
-        <span class="hidden">
+        <!--<span class="hidden">
           &amp;&nbsp;Made&nbsp;by
           <a :href="config.github" target="_blank">
             {{ config.author }}
           </a>
-        </span>
+        </span>-->
         <!-- 站点备案 -->
         <a v-if="siteIcp" href="https://beian.miit.gov.cn" target="_blank">
           &amp;
@@ -66,7 +66,7 @@ const siteUrl = computed(() => {
   position: absolute;
   bottom: 0;
   left: 0;
-  height: 46px;
+  height: 50px;
   line-height: 46px;
   text-align: center;
   z-index: 0;
@@ -97,9 +97,9 @@ const siteUrl = computed(() => {
     }
   }
   &.blur {
-    backdrop-filter: blur(10px);
-    background: rgb(0 0 0 / 25%);
-    font-size: 16px;
+    //backdrop-filter: blur(10px);
+    background: rgba(0, 0, 0, 0);
+    font-size: 12px;
   }
   .fade-enter-active,
   .fade-leave-active {
