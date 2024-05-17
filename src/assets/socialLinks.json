@@ -8,19 +8,7 @@
   {
     "name": "Email",
     "icon": "/images/icon/email.png",
-    "tip": "不读不回",
-    "url": ""
-  },
-  {
-    "name": "Twitter",
-    "icon": "/images/icon/twitter.png",
-    "tip": "你懂的 ~",
-    "url": "https://twitter.com/iimmsyy"
-  },
-  {
-    "name": "Telegram",
-    "icon": "/images/icon/telegram.png",
-    "tip": "你懂的 ~",
-    "url": "https://t.me/bottom_user"
+    "tip": "不读不回(也许？)",
+    "url": "eidhu66@outlook.com"
   }
 ]

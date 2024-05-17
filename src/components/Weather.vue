@@ -22,7 +22,7 @@ import { getAdcode, getWeather, getOtherWeather } from "@/api";
 import { Error } from "@icon-park/vue-next";
 
 // 高德开发者 Key
-const mainKey = import.meta.env.VITE_WEATHER_KEY;
+const mainKey = import.meta.env.fcbe56b26d572e69522eebe0b912ff5e;
 
 // 天气数据
 const weatherData = reactive({

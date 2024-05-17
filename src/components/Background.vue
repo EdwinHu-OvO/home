@@ -46,6 +46,8 @@ const changeBg = (type) => {
     bgUrl.value = "https://api.aixiaowai.cn/gqapi/gqapi.php";
   } else if (type == 3) {
     bgUrl.value = "https://api.aixiaowai.cn/api/api.php";
+    else if (type == 4) {
+    bgUrl.value = "https://api.hikarinagi.org/random";
   }
 };
 
