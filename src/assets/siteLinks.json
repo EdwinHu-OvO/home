@@ -9,14 +9,10 @@
     "name": "网盘",
     "link": "https://pan.edwinovo.uk/"
   },
-  {
-    "icon": "CompactDisc",
-    "name": "音乐",
-    "link": "https://music.imsyy.top/"
-  },
+  
   {
     "icon": "LaptopCode",
-    "name": "站点监测(plan)",
-    "link": "still planning"
+    "name": "站点监测",
+    "link": "https://stat.bytefox.org/"
   }
 ]
